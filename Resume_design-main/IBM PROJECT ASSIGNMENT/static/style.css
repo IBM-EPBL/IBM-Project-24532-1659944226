@@ -16,27 +16,27 @@ button:hover{
     
 
 .resume {
-  margin: 2em auto;
+  margin: 7em auto;
   max-width: 900px;
   border-radius: 13px;
   box-shadow: 0 0 30px 0px rgb(66, 63, 63);
   padding-bottom: 3em;
 }
 .name-sec {
-  background: #49dcd0;
+  background: #4989dc;
   height: max-content;
-  border-radius: 13px 13px 0 0;
+  border-radius: 15px 15px 0 0;
   font-family: poppins;
   display: flex;
   gap: 4em;
   padding: 3em 2em 2em 3em;
 }
 .profile {
-  max-width: 150px;
-  height: 140px;
+  max-width: 200px;
+  height: 200px;
   overflow: hidden;
-  padding: 4px;
-  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  background-color: black;
   border-radius: 80%;
 }
 .profile img {
@@ -91,14 +91,14 @@ button:hover{
   margin-top: 20px;
 }
 .ct-gry {
-  font-weight: 650;
+  font-weight: 600;
 }
 
 .det-sec {
-  line-height: 35px;
+  line-height: 27px;
   padding: 20px;
   display: flex;
-  gap: 40px;
+  gap: 50px;
 }
 
 
@@ -128,25 +128,31 @@ button:hover{
   border-radius: 5px;
 }
 .bar1 {
-  background: linear-gradient(to right, #37bc9b 90%, #eaecef 20%);
+  background: linear-gradient(to right, #4989dc 80%, #eaecef 20%);
 }
 .bar2 {
-  background: linear-gradient(to right, #37bc9b 70%, #eaecef 30%);
+  background: linear-gradient(to right, #4989dc 70%, #eaecef 30%);
 }
 .bar3 {
-  background: linear-gradient(to right, #37bc9b 75%, #eaecef 20%);
+  background: linear-gradient(to right, #4989dc 75%, #eaecef 20%);
 }
 .bar4 {
-  background: linear-gradient(to right, #37bc9b 80%, #eaecef 20%);
+  background: linear-gradient(to right, #4989dc 90%, #eaecef 20%);
+}
+.bar5 {
+  background: linear-gradient(to right, #4989dc 70%, #eaecef 20%);
+}
+.bar6 {
+  background: linear-gradient(to right, #4989dc 80%, #eaecef 20%);
 }
 
 
 .cards-container{
     max-width: 20em;
-    margin: 20px 4em 0 0;
+    margin: 10px 2em 0 0;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 200px;
+    gap: 20px;
 }
 .card{
     color: black;
